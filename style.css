@@ -48,6 +48,10 @@ button {
   letter-spacing: 0.1rem;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
@@ -79,6 +83,15 @@ button {
     background-image: linear-gradient(to right, #a3a8f0, #696fdd);
     color: white;
   }
+  button:hover {
+    background: none;
+    outline: solid 1px #696fdd;
+    color: #696fdd;
+    transition: background 200ms, color 200ms;
+  }
+  button:not(hover) {
+    transition: background 200ms, color 200ms;
+  }
 }
 
 .professional {
@@ -86,12 +99,30 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  button:hover {
+    background: none;
+    outline: solid 1px white;
+    color: white;
+    transition: background 200ms, color 200ms;
+  }
+  button:not(hover) {
+    transition: background 200ms, color 200ms;
+  }
 }
 
 .master {
   button {
     background-image: linear-gradient(to right, #a3a8f0, #696fdd);
     color: white;
+  }
+  button:hover {
+    background: none;
+    outline: solid 1px #696fdd;
+    color: #696fdd;
+    transition: background 200ms, color 200ms;
+  }
+  button:not(hover) {
+    transition: background 200ms, color 200ms;
   }
 }
 
