@@ -76,7 +76,6 @@ button:hover {
     width: 2.5rem;
     padding: 0.2rem;
     display: flex;
-    justify-content: flex-end;
     overflow: hidden;
     div {
       background-color: white;
@@ -90,6 +89,11 @@ button:hover {
     background: none;
     background-color: #a3a8f0;
   }
+}
+
+/* This class is used in the script.js to toggle between 'monthly' payments or 'annual' */
+.monthly {
+  justify-content: flex-end;
 }
 
 .components {
