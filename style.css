@@ -1,0 +1,10 @@
+* {
+  outline: solid 1px red;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  max-width: 1300px;
+  margin: 0 auto;
+}
