@@ -8,3 +8,35 @@ body {
   max-width: 1300px;
   margin: 0 auto;
 }
+
+ul {
+  list-style-type: none;
+}
+
+.heading {
+  margin-top: 6rem;
+}
+
+.components {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin-top: 6rem;
+  background-color: yellow;
+  height: 300px;
+}
+
+.basic {
+  background-color: blue;
+  height: 80%;
+}
+
+.professional {
+  background-color: green;
+  height: 100%;
+}
+
+.master {
+  background-color: purple;
+  height: 80%;
+}
